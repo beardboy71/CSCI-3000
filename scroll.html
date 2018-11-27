@@ -1,0 +1,350 @@
+<!-- 
+Keegan Cargill
+CSCI 3000
+HW6
+
+The style for this website is basic, but I did that on purpose. I wanted the feel of the website to be like a fanpage from the 90's/early days of computing because thats when the movies came out. It is stil responsive though and feels modern with how it uses JS.
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="styleSheet" href= "scroll.css">
+		<!-- <script type="text/javascript" src="myscripts.js"></script> -->
+	</head>
+	<body>
+			<div class="header col-s-4">
+			<h1>A long time ago, in a galaxy, far, far away...</h1>
+			
+		</div>
+		<div class="button col-s-6 btnps">
+			
+			<input type="button" onClick="pageScroll()" value="Scroll Page">
+			<input type="button" onclick="stopScroll()" value="Stop Scroll">
+			<input type="button" onclick="restart()" value="Restart Scroll">
+
+		</div>
+		<br><br><br><br><br><br><br><br><br>
+		<div class="content col-s-8">
+			<h1>Star Wars Title Crawls & credits</h1>
+			<p>When I think of credits rolling, I also think of the opening title crawl from the Star Wars franchise.
+			So this webpage includes just that! The opening title crawl along with the credits for each film in the series.
+			</p>
+		</div>
+		<div class="col-s-8">
+		<!-- This is the title crawl from the "first" movie -->
+			<h2>Episode I The Phantom Menace</h2>
+			<pre>
+				Turmoil has engulfed the
+				Galactic Republic. The taxation
+				of trade routes to outlying star
+				systems is in dispute.
+
+				Hoping to resolve the matter
+				with a blockade of deadly
+				battleships, the greedy Trade
+				Federation has stopped all
+				shipping to the small planet
+				of Naboo.
+
+				While the Congress of the
+				Republic endlessly debates
+				this alarming chain of events,
+				the Supreme Chancellor has
+				secretly dispatched two Jedi
+				Knights, the guardians of
+				peace and justice in the
+				galaxy, to settle the conflict....
+			</pre>
+		</div>
+		<br>
+		<div class="col-s-12 cast">
+		<h2>Cast</h2>
+			<table>
+			<!-- table with actors and roles-->
+				<tr>
+					<th>Actor/actress</th>
+					<th>Character</th>
+				</tr>
+				<tr>
+					<td>Liam Neeson</td>
+					<td>Qui-Gon Jinn</td>
+				</tr>
+				<tr>
+					<td>Ewan McGregor</td>
+					<td>Obi-Wan Kenobi</td>
+				</tr><tr>
+					<td>Natalie Portman</td>
+					<td>Queen Amidala/Padme</td>
+				</tr><tr>
+					<td>Jake Lloyd</td>
+					<td>Anakin Skywalker</td>
+				</tr><tr>
+					<td>Ian Mcdiarmid</td>
+					<td>Senator Palpatine</td>
+				</tr><tr>
+					<td>Pernilla August</td>
+					<td>Shmi Skywalker</td>
+				</tr><tr>
+					<td>Oliver Ford Davies</td>
+					<td>Sio Bibble</td>
+				</tr><tr>
+					<td>Hugh Quarshie</td>
+					<td>Captain Panaka</td>
+				</tr><tr>
+					<td>Ahmed Best</td>
+					<td>Jar Jar Binks</td>
+				</tr><tr>
+					<td>Kenny Baker</td>
+					<td>R2-D2</td>
+				</tr><tr>
+					<td>Terence Stamp</td>
+					<td>Chancellor Valorum</td>
+				</tr><tr>
+					<td>Brian Blessed</td>
+					<td>Boss Nass</td>
+				</tr><tr>
+					<td>Andrew Secombe</td>
+					<td>Watto</td>
+				</tr><tr>
+					<td>Ray Park</td>
+					<td>Darth Maul</td>
+				</tr><tr>
+					<td>Lewis Macleod</td>
+					<td>Sebulba</td>
+				</tr><tr>
+					<td>Keira Knightley</td>
+					<td>Sabe</td>
+				</tr><tr>
+					<td>Jabba The Hutt</td>
+					<td>Himself</td>
+				</tr>
+				<tr>
+					<td>Bronagh Gallagher</td>
+					<td>Republic Cruiser Captain</td>
+				</tr>
+				<tr>
+					<td>John Fensom</td>
+					<td>Tc-14</td>
+				</tr>
+				<tr>
+					<td>Greg Proops</td>
+					<td>Fode</td>
+				</tr>
+				<tr>
+					<td>Scott Capurro</td>
+					<td>Beed</td>
+				</tr>
+				<tr>
+					<td>Margaret Towner</td>
+					<td>Jira</td>
+				</tr>
+				<tr>
+					<td>Dhruv Chanchani</td>
+					<td>Kitster</td>
+				</tr>
+				<tr>
+					<td>Oliver Walpole</td>
+					<td>Seek</td>
+				</tr>
+				<tr>
+					<td>Megan Udall</td>
+					<td>Melee</td>
+				</tr>
+				<tr>
+					<td>Hassani Shapi</td>
+					<td>Eeth Koth</td>
+				</tr>
+				<tr>
+					<td>Phil Eason</td>
+					<td>Yaddle</td>
+				</tr>
+				<tr>
+					<td>Dipika O'Neill Joti</td>
+					<td>Depa Billaba</td>
+				</tr>
+				<tr>
+					<td>Mark Coulier</td>
+					<td>Aks Moe</td>
+				</tr>
+				<tr>
+					<td>Kathy Smee</td>
+					<td>Yoda Puppeteer</td>
+				</tr>
+				<tr>
+					<td>Don Austen</td>
+					<td>Yoda Puppeteer</td>
+				</tr>
+				<tr>
+					<td>David Greenaway</td>
+					<td>Yoda Puppeteer</td>
+				</tr>
+				<tr>
+					<td>Anthony Daniels</td>
+					<td>Voice Of C-3po</td>
+				</tr>
+				<tr>
+					<td>Frank Oz</td>
+					<td>Voice Of Yoda</td>
+				</tr>
+				<tr>
+					<td>Lindsay Duncan</td>
+					<td>Voice Of Tc-14</td>
+				</tr>
+			</table>
+	<!-- start of table with cast-->
+			<h2>Cinematography</h2>
+			<table>
+				<tr>
+					<th>Name</th>
+					<th>Possition</th>
+				</tr>
+				<tr>
+					<td>David Tattersall</td>
+					<td>Director of photography</td>
+				</tr>
+				<tr>
+					<td>Martin Rosenberg</td>
+					<td>Effects director of photography</td>
+				</tr>
+				<tr>
+					<td>Patrick Sweeny</td>
+					<td>Effects Director of photography</td>
+				</tr>
+				<tr>
+					<td>Giles Nuttgens</td>
+					<td>Directory of Photography (2nd unit)</td>
+				</tr>
+				<tr>
+					<td>John Shenk</td>
+					<td>Documentary Cinematographer</td>
+				</tr>
+				<tr>
+					<td>Adam Dale</td>
+					<td>Aerial Cameraman</td>
+				</tr>
+				<tr>
+					<td>Derek Boyes</td>
+					<td>Photography Assistant</td>
+				</tr>
+				<tr>
+					<td>Keith Sewell</td>
+					<td>Stedicam Operator</td>
+				</tr>
+				</table>
+			<h2>Writer</h2>
+			<table>
+			<tr>
+					<th>Name</th>
+					<th>Possition</th>
+				</tr>
+				<tr>
+					<td>George Lucas</td>
+					<td>Screenwriter</td>
+				</tr>
+				<tr>
+					<td>Jayne-ann tenggren</td>
+					<td>Script Supervisor</td>
+				</tr>
+				<tr>
+					<td>Lisa Vick</td>
+					<td>Script supervisor</td>
+				</tr>
+			</table>
+			<h2>Producer</h2>
+			<table>
+			<tr>
+					<th>Name</th>
+					<th>Possition</th>
+				</tr>
+				<tr>
+					<td>Rick Mccallum</td>
+					<td>Producer</td>
+				</tr>
+				<tr>
+					<td>George Lucas</td>
+					<td>Executive Producer</td>
+				</tr>
+			</table>
+			<h2>Music</h2>
+			<table>
+			<tr>
+					<th>Name</th>
+					<th>Possition</th>
+				</tr>
+				<tr>
+					<td>John Williams</td>
+					<td>Music</td>
+				</tr>
+				<tr>
+					<td>Peter Myles</td>
+					<td>Assistant music editor</td>
+				</tr>
+
+				<tr>
+					<td>Jonathan Allen</td>
+					<td>Scoring assistant</td>
+				</tr>
+				<tr>
+					<td>Andrew Dudman</td>
+					<td>Scoring assistant</td>
+				</tr>
+				<tr>
+					<td>Terry Edwards</td>
+					<td>Chorus Director</td>
+				</tr>
+				<tr>
+					<td>Ronald Corp</td>
+					<td>Chorus Director</td>
+				</tr>
+				</table>
+			<h2>Art Director</h2>
+			<table>
+			<tr>
+					<th>Name</th>
+					<th>Possition</th>
+				</tr>
+				<tr>
+					<td>Peter Russell</td>
+					<td>Supervising Art Director</td>
+				</tr>
+				<tr>
+					<td>Fred Hole</td>
+					<td>Art Director</td>
+				</tr>
+				<tr>
+					<td>John King</td>
+					<td>Art Director</td>
+				</tr>					
+		</div>
+	
+	</body>
+	
+	<script>
+function pageScroll()
+{
+	if((window.innerHeight + window.scrollY)>=document.body.offsetHeight)
+	{
+		window.scrollBy(0,50);
+    	scrolldelay = setTimeout('pageScroll()',25);
+	}	<!--if window is not between top and just before the bootom, go to top of document -->
+	if (!((window.innerHeight + window.scrollY)>=document.body.offsetHeight))
+	{
+		document.body.scrollTop=0;
+		document.documentElement.scrollTop=0;
+		clearTimeout(scrolldelay);
+	}	
+}
+function stopScroll() <!-- Clears scrolling -->
+{
+    	clearTimeout(scrolldelay);
+}
+function restart(){ <!--goes to the top of page-->
+	document.body.scrollTop=0;
+	document.documentElement.scrollTop=0;
+	clearTimeout(scrolldelay);
+
+}
+	</script>
+
+</html>
